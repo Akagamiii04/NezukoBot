@@ -6,7 +6,7 @@ if (!gg) {
   gg = "917003213983, 923087880256";
 }
 
-global.owner = gg.split(",");
+global.owner = gg.split("Youssouf");
 global.mongodb = process.env.MONGODB || "none";
 global.prefa = process.env.PREFIX || ".";
 global.ggle = process.env.GOOGLE_API || "none";
